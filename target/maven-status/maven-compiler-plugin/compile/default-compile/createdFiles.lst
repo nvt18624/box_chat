@@ -1,0 +1,7 @@
+controllers\ChatbotController.class
+Main.class
+controllers\SettingsController.class
+managers\SettingsManager.class
+App.class
+controllers\SceneController.class
+enums\Theme.class

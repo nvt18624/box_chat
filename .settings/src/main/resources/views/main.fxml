@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.text.Font?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="950.0" side="LEFT" tabClosingPolicy="UNAVAILABLE" tabMaxHeight="40.0" tabMinHeight="40.0" tabMinWidth="40.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+    <tabs>
+        <Tab closable="false">
+            <content>
+                <fx:include source="chatbot.fxml" />
+            </content>
+         <graphic>
+            <FontAwesomeIconView glyphName="COMMENTS" size="24" />
+         </graphic>
+         <tooltip>
+            <Tooltip text="chatbot" />
+         </tooltip>
+        </Tab>
+        <Tab closable="false">
+            <content>
+                <fx:include source="settings.fxml" />
+            </content>
+         <graphic>
+            <FontAwesomeIconView glyphName="GEAR" size="24" text="" />
+         </graphic>
+         <tooltip>
+            <Tooltip text="settings" />
+         </tooltip>
+        </Tab>
+    </tabs>
+</TabPane>
